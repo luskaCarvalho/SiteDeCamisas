@@ -1,0 +1,141 @@
+body{
+    background-color: #38004e;
+    margin: 0%;/* Espaço externo da página */
+    padding: 0%;/* Espaço Interno da Página */
+}
+
+
+
+#imagemInicial{
+    background-color: #456;
+    width: 100%;
+    padding-left: 1%;
+}
+
+
+
+h1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+h2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+h3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+h4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+}
+
+h5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+}
+
+
+.gd{
+    width: 20%;/* Largura */
+    height: 0%;/* Altura */
+    object-fit:cover;
+}
+
+
+
+.dinheiro{
+    font-family:'Impact';
+    font-size: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: -0.7%;
+}
+
+.botao{
+    text-decoration: none;
+    font-family: 'Gill Sans';
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #000;
+    padding: 5% 15% 5% 15%;
+    background-color: #fff;
+    font-weight: bold;
+    color: #000;
+    border-radius: 15%;
+    margin-left: 20%;
+}
+
+
+
+
+
+#historia{
+    height: 30%;
+    border: 2px solid #000;
+    padding: 5%;
+    font-size: 30px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#fechamento, #rodape{
+    height: 10%;
+    text-align: center;
+    border: 2px solid #000;
+    margin-top: 1%;
+    font-size: 15px;
+    background-color: #fff;
+    background-image: url('../Imagens/monitor23.jpg');
+    background-repeat:no-repeat;
+}
+
+/* Tela de Celular */
+@media screen and (max-width: 767px){
+    .botao{
+        text-decoration: none;
+        font-family: 'Gill Sans';
+        font-size: 15px;
+        text-align: center;
+        border: 2px solid #000;
+        padding: 5% 15% 5% 15%;
+        background-color: #fff;
+        font-weight: bold;
+        color: #000;
+        border-radius: 15%;
+        margin-left: 2%;
+    }
+
+    .dinheiro{
+        font-family:'Impact';
+        font-size: 15px;
+        text-align: center;
+        background-color: #fff;
+        margin-top: -0.7%;
+    }
+
+    body{
+        font-size: 10px; 
+    }   
+}
